@@ -14,13 +14,14 @@ Add this project to your pcio SDK examples and you are good to go building the p
 
 In the main root directory add: 
 CmakeLists.txt
-
+```
 add_subdirectory(OLED_SSH1106_I2C)
-
+```
 
 create a directory in the examples named: OLED_SSH1106_I2C
 
 clone this repository into that folder and note that the name of the cloned folder must be the same as the one in the CMakeLists.txt file in the previous step.
 
+git clone https://github.com/AminSahebi/OLED_SSH1106_I2C.git 
 
 
