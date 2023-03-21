@@ -1,5 +1,5 @@
 # OLED_SSH1106_I2C
-this is a demo sample for SSH1106 OLED with I2C for RPI Pico
+Sample for SSH1106 OLED with I2C for RPI Pico
 
 For those who deal with SSH1106 1.3' inch OLED rather than SSD1306, I have created a sample repository which works, 
 
