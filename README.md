@@ -8,3 +8,19 @@ This Repository code is adopted and transferred from the STM32 nucleo board samp
 
 Note that the dimension of the SSH1106 driver must be set to 132X72 to make it work! interestingly dimension of 128X64 doesn't work and the OLED will be turn into a whole dummy screen! 
 
+
+Add this project to your pcio SDK examples and you are good to go building the project within the pico SDK examples:
+
+
+In the main root directory add: 
+CmakeLists.txt
+
+add_subdirectory(pico-ssh1106-test)
+
+
+create a directory in the examples named: pico-ssh1106-test
+
+clone this repository into that folder and note that the name of the cloned folder must be the same as the one in the CMakeLists.txt file in the previous step.
+
+
+
