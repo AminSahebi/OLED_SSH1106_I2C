@@ -13,7 +13,7 @@ Add this project to your pcio SDK examples and you are good to go building the p
 
 
 In the main root directory add: 
-CmakeLists.txt
+CMakeLists.txt
 ```
 add_subdirectory(OLED_SSH1106_I2C)
 ```
